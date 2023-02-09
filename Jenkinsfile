@@ -10,6 +10,7 @@ pipeline {
             steps {
                 sh 'echo devbranch!'
                 sh 'echo testing pollSCM'
+                sh 'echo testing while disabled.'
             }
         }
     }
