@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Main') {
             steps {
-                sh 'echo devbranch!'
+                sh 'echo main branch!'
             }
         }
     }
