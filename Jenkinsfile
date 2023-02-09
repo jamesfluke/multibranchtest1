@@ -9,6 +9,7 @@ pipeline {
         stage('Main') {
             steps {
                 sh 'echo devbranch!'
+                sh 'echo testing pollSCM'
             }
         }
     }
